@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1{
+    @apply text-xl md:text-2xl xl:text-4xl font-bold tracking-widest;
+  }
+  h2{
+    @apply text-base md:text-xl font-semibold;
+  }
+}
+
+@layer components {
+  .active {
+    @apply text-white font-extrabold text-base tracking-widest;
+  }
+  .filter-item-container {
+    @apply max-lg:bg-white max-lg:rounded-full max-lg:shadow-md min-w-[200px] w-full lg:border-r-black/20 flex justify-center h-[60px];
+  }
+  .filter-item {
+    @apply flex justify-center  items-center gap-x-3 min-w-[100px];
+  }
+  .input-style {
+    @apply text-xs outline-none bg-transparent border-b-gray-200 border-b w-[150px] min-w-[100px] ;
+  }
+  /* navbar */
+  .before-style {
+    @apply relative transition-all ease-in-out before:absolute before:-bottom-1 
+    before:h-[1px] before:w-0 before:bg-white before:duration-300 before:ease-in-out before:content-[''] hover:text-white 
+    hover:before:w-[80%];
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .container-padding {
+    @apply py-[5%];
+  }
+
+  .container-margin {
+    @apply mt-[30%] sm:mt-[20%] md:mt-[16%]  lg:mt-[14%] xl:mt-[12%]  2xl:mt-[5%] 
+  }
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "poppinsBold";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "poppinsExtraBold";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+/* working with scrollbar */
+
+/* scroll bar style  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5e7fa3;
+  opacity: 0.3;
+  /* border-radius: 0px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5e7fa3;
+  cursor: pointer;
+}
+
+/* caroussel */
+.slick-slider{
+  box-shadow: none;
+}
+.slick-list{
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+
+}
+.slick-slide{
+  display: flex !important;
+  justify-content: center !important;
+}
