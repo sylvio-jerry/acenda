@@ -29,7 +29,7 @@ function Reason() {
     <div className="mt-[15%] lg:mt-[25%] xl:mt-[20%] 2xl:mt-[15%]">
       <div className="flex flex-col items-center text-center gap-y-10">
         <h1 
-        data-aos="fade-down" data-aos-duration="800"
+        data-aos="fade-down" data-aos-duration="500"
         >
           WHY CHOOSE US ?
         </h1>

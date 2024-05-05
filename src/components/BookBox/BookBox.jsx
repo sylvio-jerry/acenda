@@ -7,7 +7,7 @@ function BookBox({ stars, name, location, image, price }) {
     <div
       className=" w-[250px] h-[350px] relative rounded-t-2xl overflow-hidden"
       data-aos="fade-down"
-      data-aos-duration="1500"
+      data-aos-duration="500"
     >
       <div className="overflow-hidden">
         <img

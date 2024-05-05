@@ -14,7 +14,7 @@ function TestimonialBox({ image, name, profile, stars, job }) {
     <div
       className="bg-white w-[225px] h-[215px] sm:w-[250px]  md:w-[300px] h-fitd rounded-xl drop-shadow-xl p-5 gap-y-5 relative flex flex-col justify-between"
       data-aos="fade-right"
-      data-aos-duration="1500"
+      data-aos-duration="500"
     >
       <div className="drop-shadow-md absolute  transform -translate-y-3/4 translate-x-1/4 border-2 md:border-4 border-white rounded-full cursor-pointer">
         <img

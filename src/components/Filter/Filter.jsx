@@ -10,7 +10,7 @@ function Filter() {
       <div
         className="space-y-8 lg:space-y-5 "
         data-aos="zoom-in-down"
-        data-aos-duration="1500"
+        data-aos-duration="500"
         data-aos-once="true"
       >
         <p className="text-3xl lg:text-4xl font-extrabold max-lg:text-center text-primary">
@@ -24,7 +24,7 @@ function Filter() {
         <div
           className="filter-item-container lg:border-r"
           data-aos="zoom-out-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <div className="filter-item ">
             <SlLocationPin className="text-2xl" />
@@ -42,7 +42,7 @@ function Filter() {
         <div
           className="filter-item-container lg:border-r"
           data-aos="zoom-out-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <div className="filter-item">
             <MdDateRange className="text-2xl" />
@@ -55,7 +55,7 @@ function Filter() {
         <div
           className="filter-item-container lg:border-r"
           data-aos="zoom-out-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <div className="filter-item">
             <MdDateRange className="text-2xl" />
@@ -68,7 +68,7 @@ function Filter() {
         <div
           className="filter-item-container"
           data-aos="zoom-out-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <div className="lg:flex lg:justify-between w-full">
             <div className="filter-item ">
@@ -92,7 +92,7 @@ function Filter() {
         <div
           className="lg:hidden flex justify-center lg:justify-center items-center"
           data-aos="zoom-out-right"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <button className="bg-primary hover:scale-105 duration-300 text-white py-4 px-4 rounded-full w-full">
             Search

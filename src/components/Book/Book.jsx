@@ -76,7 +76,7 @@ function Book() {
           <h1
             className="text-black text-center"
             data-aos="fade-down"
-            data-aos-duration="800"
+            data-aos-duration="500"
           >
             TOP BOOK NOW
           </h1>
@@ -89,7 +89,7 @@ function Book() {
             <div
               className="container-padding flex justify-center"
               data-aos="zoom-in"
-              data-aos-duration="1500"
+              data-aos-duration="500"
             >
               <CustomButton name="See All" className="border" />
             </div>

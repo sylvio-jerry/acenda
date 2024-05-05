@@ -19,7 +19,7 @@ function Exploration() {
       <div
         className="text-center py-10 bg-green-500d border-b"
         data-aos="fade-down"
-        data-aos-duration="800"
+        data-aos-duration="500"
       >
         <p className="text-3xl lg:text-4xl  xl:text-6xl font-extrabold tracking-widest">
           EXPLORE MALDIVE
@@ -29,7 +29,7 @@ function Exploration() {
         <div
           className=" space-y-20 sm:w-full sm:grid sm:grid-cols-3 sm:justify-items-center sm:place-items-end xl:order-1 gap-5"
           data-aos="zoom-in-down"
-          data-aos-duration="800"
+          data-aos-duration="500"
         >
           <ExplorationBox location="Azure Haven" image={Exploration1} />
           <ExplorationBox location="Serene Sanctuary" image={Exploration2} />
@@ -38,7 +38,7 @@ function Exploration() {
         <div
           className="space-y-10 container-margin bg-green-100s flex flex-col items-center text-center max-w-2xl xl:px-16 "
           data-aos="zoom-in-down"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

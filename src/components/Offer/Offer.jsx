@@ -4,7 +4,7 @@ import rectangle2 from "../../assets/images/maldive.png";
 function Offer() {
   return (
     <div className="container container-margin container-padding"  data-aos="fade-up"
-    data-aos-duration="1000 " id="contact">
+    data-aos-duration="500 " id="contact">
       <div className="bg-gray-100 w-full md:h-[360px] grid md:grid-cols-2 lg:grid-cols-3 place-items-center rounded-xl overflow-hidden gap-y-5">
         <div className="w-full h-full ">
           <img src={rectangle2} className="w-full h-full  object-cover" />

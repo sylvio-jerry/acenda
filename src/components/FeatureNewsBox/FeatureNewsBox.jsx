@@ -7,7 +7,7 @@ function FeatureNewsBox({ image, date, title, description }) {
     <div
       className="bg-white w-[225px] h-[450px] sm:w-[250px]  md:w-[300px]  rounded-2xl overflow-hidden drop-shadow-md cursor-pointer"
       data-aos="fade-right"
-      data-aos-duration="1000"
+      data-aos-duration="500"
     >
       <img
         src={image}

@@ -93,7 +93,7 @@ function Partner() {
     // <div className="my-[15%] lg:my-[25%] xl:my-[20%] 2xl:my-[15%] bg-green-500">
     <div className="container-margin">
       <div className="flex flex-col items-center text-center gap-y-10">
-        <h1 data-aos="fade-down" data-aos-duration="800">
+        <h1 data-aos="fade-down" data-aos-duration="500">
           OUR PARTNERS
         </h1>
         <div className="w-full">
