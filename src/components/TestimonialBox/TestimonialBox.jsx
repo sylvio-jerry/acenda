@@ -12,7 +12,7 @@ function TestimonialBox({ image, name, profile, stars, job }) {
   ));
   return (
     <div
-      className="bg-white w-[225px] h-[215px] sm:w-[250px]  md:w-[300px] h-fitd rounded-xl drop-shadow-xl p-5 gap-y-5 relative flex flex-col justify-between"
+      className="bg-white w-[225px] h-[240px] sm:w-[250px]  md:w-[300px] h-fitd rounded-xl drop-shadow-xl p-5 gap-y-5 relative flex flex-col justify-between"
       data-aos="fade-right"
       data-aos-duration="1500"
     >
@@ -23,12 +23,12 @@ function TestimonialBox({ image, name, profile, stars, job }) {
           className="w-[60px] h-[60px] object-cover object-center hover:scale-110 transition duration-700 hover:skew-x-2 "
         />
       </div>
-      <div className="flex justify-between pt-10">
+      <div className="flex justify-between pt-10 ">
         <div>
           <p className="text-sm font-semibold">{name}</p>
           <p className="text-xs text-black ">{job}</p>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center  ">
           {starArray.map((star, index) => (
             <div key={index}>{star}</div>
           ))}
