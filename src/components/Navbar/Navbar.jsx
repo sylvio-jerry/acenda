@@ -33,7 +33,8 @@ function Navbar() {
   return (
     <header className="relative w-full bg-red-500 text-white">
       <nav
-        className={`fixed top-0 w-full py-4 z-[10] shadow-sma bg-gradient-to-r from-primary/95 to-primary/65`}
+        className={`fixed top-0 w-full py-4 z-[10] shadow-sma bg-gradient-to-l from-secondary from-20% to-primary to-80% `}
+        // className={`fixed top-0 w-full py-4 z-[10] shadow-sma bg-gradient-to-r from-primary/95 to-primary/65`}
       >
         <div className="w-full lg:container flex justify-between items-center ">
           <div className="pl-3 cursor-pointer">
@@ -47,7 +48,7 @@ function Navbar() {
             className={`lg:flex items-center lg:gap-4 z-[100]
             ${
               isOpen
-                ? "bg-gradient-to-b from-primary/75 from-65% to-white rounded-b-3xl py-10 shadow-lg z-[10] flex flex-col items-start absolute top-[60px] w-full"
+                ? "bg-gradient-to-b from-secondary from-20% to-primary to-80% rounded-b-3xl py-10 shadow-lg z-[10] flex flex-col items-start absolute top-[60px] w-full"
                 : "hidden"
             }  `}
           >
